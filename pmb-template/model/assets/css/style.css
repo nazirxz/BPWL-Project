@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #2e184a;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: #24252a;
+}
+
+body {
+  font-family: Lato;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+.mitra h1 {
+  color: white;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 70px;
+}
+
+
+h5 {
+text-align: center;
+}
+
+.head1{
+  margin-bottom: 50px;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a :hover {
+  color: #0088a9;
+}
+.row-padding {
+  padding: 10px 0px;
+  margin-top: 100px;
+}
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav ul li a:hover {
+  background: #2e184a;
+  border-radius: 6px;
+}
+
+.bs-example{
+      margin: 20px;
+}
+
+button {
+  padding: 9px 29px;
+  background-color: rgba(0,136,169,1);
+  border:none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 5px;
+  transition: all 0.3s ease 0s;
+}
+button: hover {
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px #ffffff solid;
+}
+
+.container{
+    width: 1000px;
+    text-align: center;
+    margin: 40px;
+    padding-top:10px;
+    margin: auto;
+}
+h3{
+    color: #02e5f5; 
+    font-size: 3em; 
+    letter-spacing: 0.1em;
+    margin-top: 0px; 
+    margin-bottom: 10px; 
+    font-family: 'Roboto Slab', serif;
+}
+h4{
+    font-size: 1em; 
+    margin-top: 0px;
+    margin-bottom: 40px; 
+    text-transform: uppercase; 
+    font-family: 'Montserrat', sans-serif;
+}
+#frame{
+    width: 300px;
+    margin: 0px auto;
+    text-align: left;
+    box-sizing: border-box;
+    margin-bottom: 13%;
+}
+#frame1{
+    width: 300px;
+    margin: 0px auto;
+    text-align: left;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.form-group{
+    position: relative;
+    margin-bottom: 20px;
+}
+.form-group input{
+    width: 100%;
+    font-size: 1em;
+    color: grey;
+    padding: 10px 10px;
+    background: transparent;
+    border: 1px solid gray;
+    z-index: 9;
+    box-sizing: border-box;
+    display: block;
+}
+.form-group label{
+    position: absolute;
+    top: -2px;
+    padding: 11px 10px;
+    transition: all 200ms;
+    opacity: 0.5;
+    font-size: 1em;
+    z-index: -1;
+}
+.form-group input:focus + label,
+
+.form-group input:valid + label{
+    top: 7px !important;
+    left: 5px;
+    font-size: 0.8em;
+    transform: translate3d(0, -100%, 0);
+    opacity: 1;
+    padding: 0px 10px;
+    background:#f9f9f9;
+    z-index:1;
+}
+
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+
+.signup-link {
+  font-size: 14px;
+  color: #222;
+  display: block;
+  text-align: center; 
+}
+
+.form-submit .form-button {
+  background: blue;
+  color: white;
+}
+.btn{        
+  background-color: #3A95E4;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 7px 19px;
+}
+.btn:hover {
+  background-color: #45a6f9;
+  color: white;
+}
+h2{
+  text-align: left;
+  font-size: 37px;
+  margin-bottom: 48px;
+  line-height: 1.41;
+}
+
+h5{
+  text-align: left;
+  line-height: 1.80;
+}
+
+h6{
+  text-align: left;
+  font-size: 28px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.16;
+}

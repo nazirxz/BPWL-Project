@@ -1,0 +1,9 @@
+{
+    "name": "nazirman/nazir-composer",
+    "description": "Latihan composer",
+    "type": "project",
+    "license": "GPL",
+    "require": {
+        "nesbot/carbon": "^2.32"
+    }
+}
